@@ -16,7 +16,7 @@ function solution2(letters) {
 }
 
 test('sample', () => {
-    [solution1, solution2].forEach(solution => {        
+    [solution1, solution2].forEach(solution => {
         expect(solution('pPoooyY')).toBe(true);
         expect(solution('Pyy')).toBe(false);
     });

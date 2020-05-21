@@ -19,6 +19,6 @@ function solution4(phoneNumber) {
 test('sample', () => {
     [solution1, solution2, solution3, solution4].forEach(solution => {
         expect(solution('01033334444')).toBe('*******4444');
-        expect(solution('027778888')).toBe('*****8888');    
+        expect(solution('027778888')).toBe('*****8888');
     });
 });
